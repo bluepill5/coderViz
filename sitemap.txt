@@ -1,0 +1,17 @@
+http://sitio/index.html
+http://sitio/views/gallery.html
+http://sitio/views/works.html
+http://sitio/views/references.html
+http://sitio/views/contact.html
+
+http://sitio/views/_area.html
+http://sitio/views/_barchart.html
+http://sitio/views/_boxplot.html
+http://sitio/views/_density.html
+http://sitio/views/_donut.html
+http://sitio/views/_graph.html
+http://sitio/views/_heatmap.html
+http://sitio/views/_histogram.html
+http://sitio/views/_pie.html
+http://sitio/views/_scatter.html
+http://sitio/views/_spider.html

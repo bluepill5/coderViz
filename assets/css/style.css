@@ -101,12 +101,14 @@ p {
 	align-items: center;
 	padding: 1em;
 	margin: 2em;
-	background-color: rgba(120, 196, 250, 0.2);
+	background-color: rgba(39, 59, 73, 0.85);
+  background-image: url("https://artoferickuns.files.wordpress.com/2017/04/100-lines.jpg");
 }
 
 .item-contact {
 	align-self: flex-end;
-	background-color: rgba(120, 196, 250, 0.2);
+	background-color: rgba(39, 59, 73, 0.95);
+  color: white;
 	margin: 1em;
 	padding: 1em;
 	font-size: 1em;

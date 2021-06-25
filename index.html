@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/icon_1.ico">
-    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
@@ -21,22 +21,35 @@
 <body>
     <!-- Header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="./img/icon_1.ico" alt="JavaScript Logo">
-                bluepill5
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="./views/gallery.html">Gallery</a>
-                    <a class="nav-item nav-link" href="./views/works.html">Works</a>
-                    <a class="nav-item nav-link" href="./views/references.html">References</a>
-                    <a class="nav-item nav-link" href="./views/contact.html">Contact</a>
+        <div class="container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/icon_1.ico" alt="JavaScript Logo">
+                    bluepill5
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/works.html">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/references.html">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -79,9 +92,12 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
     <script src="./scripts/index.js"></script>
+
 </body>
 </html>

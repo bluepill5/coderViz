@@ -59,60 +59,16 @@ p {
   font-weight: bold; /* font weight*/
 }
 
-.navbar {
-  position: fixed;
-  margin: 0;
-  top: 0;
-  left: 0;
-  list-style: none;
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  background-color: #1e2125;
-  font-size: 1.5em;
-}
-
-.navbar li {
-  display: block;
-  position: relative;
-  float: left;
-  background: #1e2125; /* menu background color */
-}
 .navbar li a {
-  display: block;
   padding: 0;
   text-decoration: none;
   width: 200px; /* this is the width of the menu items */
   line-height: 35px; /* this is the height of the menu items */
   color: #ffffff; /* list item font color */
 }
-.navbar li li a {
-  font-size: 80%; /* smaller font size for sub menu items */
-}
 
 .navbar li:hover {
   background: #6a6c70; /* highlights current hovered list item and the parent list items when hovering over sub menues */
-}
-
-.navbar ul {
-  position: absolute;
-  padding: 0;
-  left: 0;
-  display: none; /* hides sublists */
-}
-
-.navbar li:hover ul ul {
-  display: none; /* hides sub-sublists */
-}
-
-.navbar li:hover ul {
-  display: block; /* shows sublist on hover */
-}
-
-.navbar li li:hover ul {
-  display: block; /* shows sub-sublist on hover */
-  margin-left: 200px; /* this should be the same width as the parent list item */
-  margin-top: -35px; /* aligns top of sub menu with top of list item */
 }
 
 .plots {

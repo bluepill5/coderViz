@@ -75,7 +75,6 @@ p {
 
 .item {
 	align-self: flex-end;
-	/* background-color: #f24e4e; */
 	background-color: rgba(120, 196, 250, 0.2);
 	margin: 0.25em;
 	font-size: 2em;
@@ -107,7 +106,6 @@ p {
 
 .item-contact {
 	align-self: flex-end;
-	/* background-color: #f24e4e; */
 	background-color: rgba(120, 196, 250, 0.2);
 	margin: 1em;
 	padding: 1em;

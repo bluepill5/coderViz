@@ -93,6 +93,40 @@
       </div>
     </div>
   </main>
+  <section class="main">
+    <h1 class="h1Black">Area Chart</h1>
+    <article>
+      <p>A scatter plot (aka scatter chart, scatter graph) uses dots to represent values for two different numeric
+        variables. The position of each dot on the horizontal and vertical axis indicates values for an individual data
+        point. Scatter plots are used to observe relationships between variables.</p>
+
+      <img src="https://www.irya.unam.mx/computo/sites/manuales/IDL/Content/Resources/Images/scatterplot.png"
+        alt="Scatter Plot" class="center">
+
+      <br>
+
+      <p class="title">R:</p>
+
+      <code class="r-code">
+library(ggplot2)
+# Basic scatter plot
+ggplot(mtcars, aes(x=wt, y=mpg)) + geom_point()
+# Change the point size, and shape
+ggplot(mtcars, aes(x=wt, y=mpg)) +
+geom_point(size=2, shape=23)
+            </code>
+
+      <p class="title">Python:</p>
+
+      <code class="python-code">
+tips = sns.load_dataset("tips")
+tips.head()
+sns.scatterplot(data=tips, x="total_bill", y="tip")
+            </code>
+
+    </article>
+    <br>
+  </section>
   <!-- Footer -->
   <footer id="footer" class="pb-4 pt-4">
     <div class="container">

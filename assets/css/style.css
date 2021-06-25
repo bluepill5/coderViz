@@ -101,7 +101,6 @@ p {
 	align-items: center;
 	padding: 1em;
 	margin: 2em;
-	background-color: rgba(39, 59, 73, 0.85);
   background-image: url("https://artoferickuns.files.wordpress.com/2017/04/100-lines.jpg");
 }
 
@@ -272,6 +271,11 @@ p {
 
 #place-time img {
   max-width: 100%;
+}
+
+div textarea {
+  box-sizing: border-box;
+  max-width: 50%;
 }
 
 #footer {

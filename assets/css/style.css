@@ -4,7 +4,7 @@
 
 body {
   background-color: #1e2125;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif !important; 
 }
 
 h1 {

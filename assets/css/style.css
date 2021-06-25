@@ -69,8 +69,8 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	padding: 1em;
-	margin: 2em;
+	padding: 0;
+	margin: 0;
 }
 
 .item {

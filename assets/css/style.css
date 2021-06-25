@@ -17,28 +17,14 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-.h1BlackTitle {
-  /* background-color: #deecff; */
-  background-color: rgba(120, 196, 250, 0.2);
-  margin: 0em;
-  padding: 1em;
-
-  color: #000000;
-  font-weight: bold; /* font weight*/
-  font-family: "Montserrat", sans-serif;
-  text-decoration: underline overline; /* for text decoration */
-  text-align: center; /* for text align	*/
-  text-decoration: underline overline; /* for text decoration */
-  letter-spacing: 1em; /* for letter spacing */
-  word-spacing: 1em; /* for word spacing */
-  text-align: center; /* for text align	*/
-}
 
 .main {
   background-color: #f5f7f6;
   background-image: url("https://image.freepik.com/free-vector/abstract-connecting-dots-lines-with-geometric-background_41981-1508.jpg");
   background-repeat: repeat;
-  padding: 2em;
+  padding-top: 7em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .main ul {
@@ -247,6 +233,13 @@ p {
   
 }
 
+#main {
+  background-color: #f5f7f6;
+  background-image: url("https://image.freepik.com/free-vector/abstract-connecting-dots-lines-with-geometric-background_41981-1508.jpg");
+  background-repeat: repeat;
+  /* padding: 2em; */
+}
+
 #main .carousel-inner img {
   max-height: 70vh;
   object-fit: cover;
@@ -289,5 +282,6 @@ p {
   color: white;
   font-family: "PT Sans", sans-serif;
 }
+
 
 
